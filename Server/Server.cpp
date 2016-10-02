@@ -34,6 +34,7 @@ int main()
 	RET_COD lnRetCode = SUCCESS;
 	WSADATA wsadata;
 
+	//some dummy changs
 	lnRetCode = WSAStartup(MAKEWORD(2, 2), &wsadata);
 	if (0 != lnRetCode)
 	{
